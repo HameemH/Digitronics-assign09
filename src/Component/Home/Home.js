@@ -20,6 +20,7 @@ const Home = () => {
    
     return (
         <div className='container'>
+            <h1>Digitronics</h1>
             <div className="container row mt-5 ">
               <div className="text-section col-6 ">
                     <h1>Your Next </h1>
