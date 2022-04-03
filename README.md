@@ -1,7 +1,9 @@
-# Getting Started with Create React App
+# Digitronics
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+* This website is based on React
+* It has 6 routes
+* Links spelling have to be  correct to get to an specific route 
 ## Available Scripts
 
 In the project directory, you can run:
