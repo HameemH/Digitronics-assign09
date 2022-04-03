@@ -43,10 +43,11 @@ const Dashboard = () => {
     ];
     
     return (
-        <div className='container row mx-auto'>
+        <div className='container '>
             <h1>Dashboard</h1>
-            <div className="chart-1 col-6">
-            <LineChart width={400} height={500} data={data}>
+           <div className='row mx-auto'>
+           <div className="chart-1 col-6">
+            <LineChart width={450} height={500} data={data}>
             <Line  dataKey='month'></Line>
             <Line dataKey='investment'></Line>
             <XAxis dataKey="month"></XAxis>
@@ -56,7 +57,7 @@ const Dashboard = () => {
         </LineChart>
             </div>
             <div className="chart-2 col-6">
-            <BarChart width={400} height={500} data={data}>
+            <BarChart width={500} height={500} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
             <YAxis />
@@ -66,6 +67,7 @@ const Dashboard = () => {
 
             </BarChart>
             </div>
+           </div>
         </div>
     );
 };
