@@ -1,6 +1,6 @@
 # Digitronics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[LIVE SITE LINK](https://assignment-0009.netlify.app/).
 * This website is based on React
 * It has 6 routes
 * Links spelling have to be  correct to get to an specific route 
